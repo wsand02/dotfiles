@@ -11,3 +11,5 @@ PROMPT='%F{green}%*%f %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
+alias vi="nvim"
+alias vim="nvim"

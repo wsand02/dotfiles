@@ -1,0 +1,46 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "code-runner.executorMap": {
+        "python": "python3 -u",
+    },
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#f9826c"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "prettier.singleQuote": true,
+    "editor.minimap.enabled": false
+}

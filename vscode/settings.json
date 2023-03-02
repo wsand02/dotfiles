@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
     "editor.tabSize": 2,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"

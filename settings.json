@@ -1,0 +1,56 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 14,
+    "editor.rulers": [80, 120],
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "C_Cpp.clang_format_style": "llvm",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.tabSize": 4
+    },
+    "[rust]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true,
+        "editor.suggest.insertMode": "replace",
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 8
+    },
+    "[c]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "prettier.singleQuote": true,
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "å": true,
+        "ä": true,
+        "ö": true
+    },
+    "editor.wordWrap": "on",
+    "editor.hover.enabled": "on",
+    "editor.hover.delay": 1000
+}

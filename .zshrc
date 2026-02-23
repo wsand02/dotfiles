@@ -67,7 +67,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -77,7 +77,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fzf vi-mode)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,7 +94,9 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='nvim'
 # fi
+export EDITOR='nvim'
 
+export PATH="$HOME/go/bin:$PATH"
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
@@ -109,12 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
-export VI_MODE_SET_CURSOR=true
-
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
-
-export PATH="/Users/william/Library/Python/3.9/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

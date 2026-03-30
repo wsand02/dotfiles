@@ -1,4 +1,4 @@
-dotfilesdir="${HOME}/dotfiles" 
+dotfilesdir="${HOME}/.dotfiles" 
 cd ${dotfilesdir} || exit
 configdir="${dotfilesdir}/.config"
 kittydir="${configdir}/kitty"
